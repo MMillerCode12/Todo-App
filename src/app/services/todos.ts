@@ -6,30 +6,7 @@ import { Todo } from '../model/todo.type';
 })
 
 export class TodoService {
-  todoItems: Array<Todo> = [{
-    title: 'groceries',
-    id: 0,
-    userId: 0,
-    completed: false
-  },
-  {
-    title: 'drink alcohol',
-    id: 1,
-    userId: 0,
-    completed: false
-  },
-  {
-    title: 'sip lean',
-    id: 2,
-    userId: 0,
-    completed: false
-  },
-  {
-    title: 'die',
-    id: 3,
-    userId: 0,
-    completed: false
-  }]
+  todoItems: Array<Todo> = []
 
   addTodo(todo_title: string): void {
     this.todoItems.push({
