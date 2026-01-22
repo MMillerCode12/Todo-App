@@ -1,0 +1,45 @@
+.adder-container {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 37.5%;
+    margin-left: 37.5%;
+}
+
+input 
+{
+    display: block;
+    width: 70%;
+    padding: 10px;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button 
+{
+    width: 15%;
+    height: 43px;
+    margin-right: 3.5%;
+    margin-top: 20px;
+    cursor: pointer;  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-image: linear-gradient(to left, #df25a7, #d6355d);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background-image 0.2s ease, opacity 0.2s ease;
+    
+}
+
+button:hover 
+{
+    background-image: linear-gradient(to left, #d6355d, #df25a7);
+    opacity: 0.8;
+}
