@@ -34,12 +34,14 @@ button
     font-weight: bold;
     background-image: linear-gradient(to left, #df25a7, #d6355d);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    transition: background-image 0.2s ease, opacity 0.2s ease;
+    transition: background-image 0.2s ease, opacity 0.2s ease, width 0.2s ease, height 0.2s ease;
     
 }
 
 button:hover 
-{
+{  
+    width: 17.5%;
+    height: 46px;
     background-image: linear-gradient(to left, #d6355d, #df25a7);
     opacity: 0.8;
 }

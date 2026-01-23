@@ -2,8 +2,10 @@
 <ul>
     @for (todo of todoList(); track todo.id) {
         <li>
-            <h4>{{ todo.title }}</h4>
-            <button class="delete" (click)="deleteTodo(todo.id)">Done</button>
+            <div class="todo-container">
+                <h4>{{ todo.title }}</h4>
+                <button class="delete" (click)="deleteTodo(todo.id)">Done</button>
+            </div>
         </li>
     }
 </ul>

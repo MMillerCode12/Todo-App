@@ -1,3 +1,10 @@
+.todo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
 li {
     margin: auto;
     margin-bottom: 0px;
@@ -21,10 +28,18 @@ li {
 .delete {
     margin-left: 20px;
     padding: 5px;
+    height: 35px;
     border: none;
     border-radius: 5px;
     background-color: #ff4d4d;
     color: white;
     font-weight: bold;
     cursor: pointer;
+    transition: background-color 0.2s ease, opacity 0.2s ease;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.19);
+}
+
+.delete:hover {
+    background-color: #f62a2a;
+    opacity: 0.8;
 }
