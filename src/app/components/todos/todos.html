@@ -1,4 +1,8 @@
 
+@if (todoList().length === 0) {
+    <p>Hmm... there's nothing here</p>
+}
+
 <ul>
     @for (todo of todoList(); track todo.id) {
         <li>
